@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loading Screen</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="load">
+    <div class="letters">
+      <span>L</span>
+      <span>O</span>
+      <span>A</span>
+      <span>D</span>
+      <span>I</span>
+      <span>N</span>
+      <span>G</span>
+    </div>
+    <div id="percent">0%</div>
+    <p class="credit">Crafted with Passion by MrPusitCH👨‍💻</p>
+  </div>
+
+  <!-- Message after loading -->
+  <div id="final-message" style="display: none;">Have fun listening to the music🎶</div>
+
+  <!-- Audio Element for Preloader -->
+  <audio id="preload-song" loop>
+    <source src="https://github.com/ecemgo/mini-samples-great-tricks/raw/main/song-list/Clean-Bandit-Symphony.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
